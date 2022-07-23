@@ -19,3 +19,21 @@ int main()
 
 	
 }
+int main()
+{
+	int ch = 0;
+	char password[20] = { 0 };
+	int ret = 0;
+	printf("请输入密码：>");
+	scanf("%s", password);
+	while ((ch = getchar()) != '\n')
+	{
+		;
+	}
+	printf("请确认密码\n");
+	ret = getchar();
+		if (ret= 'Y')
+			printf("请确成功\n");
+		else
+			printf("放弃请确\n");
+}
